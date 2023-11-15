@@ -1,0 +1,12 @@
+.tmp/
+.cache/
+.git/
+.idea/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode
+.i18n-editor-metadata
+node_modules
+*.log

@@ -1,0 +1,5 @@
+// Target build folder must not be checked
+/lib
+/build
+/dist
+/coverage
