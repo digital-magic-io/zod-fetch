@@ -1,7 +1,7 @@
 {
-  "name": "@digital-magic/ts-template",
+  "name": "@digital-magic/zod-fetch",
   "version": "1.0.1",
-  "description": "Template for Typescript based projects",
+  "description": "Type-safe fetch implementation with checked with zod schemas",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "sideEffects": false,
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digital-magic-io/ts-template.git"
+    "url": "git+https://github.com/digital-magic-io/zod-fetch.git"
   },
   "files": [
     "lib/",
@@ -26,16 +26,18 @@
   "author": "Jevgeni Goloborodko <jevgeni@digital-magic.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digital-magic-io/ts-template/issues"
+    "url": "https://github.com/digital-magic-io/zod-fetch/issues"
   },
-  "homepage": "https://github.com/digital-magic-io/ts-template#readme",
+  "homepage": "https://github.com/digital-magic-io/zod-fetch#readme",
   "keywords": [
     "typescript",
     "template"
   ],
   "tags": [
     "typescript",
-    "template"
+    "fetch",
+    "zod",
+    "type-safe"
   ],
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",
