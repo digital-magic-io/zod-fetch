@@ -51,7 +51,7 @@ const verifyResponseBody = <T>(
 const verifyResponse = (request: RequestContext, response: Response): Promise<Response> =>
   response.ok
     ? Promise.resolve(response)
-    : Promise.reject(httpError(request, buildResponseContext(response, undefined)))
+    : response.json().then(data => Promise.reject(httpError(request, buildResponseContext(response, data))))
 
 export const httpCall = async (config: RequestCallConfig): Promise<void> =>
   fetch(evaluate(config.url), {
