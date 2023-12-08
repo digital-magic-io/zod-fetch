@@ -1,6 +1,6 @@
 {
   "name": "@digital-magic/zod-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Type-safe fetch implementation with checked with zod schemas",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
